@@ -1,4 +1,5 @@
 import './Projects.css'
+import tictactoe from '../assets/tictactoe.png'
 
 export default function Projects() {
     return (
@@ -11,9 +12,9 @@ export default function Projects() {
                     </div>
                     <div className="projects-grid-wrapper">
                         <div className="max-w-sm">
-                            <img src="https://fakeimg.pl/350x233" alt="" className="rounded-lg w-full"/>
-                            <h2 className="mb-2 text-2xl font-bold">Project 1</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia eos ea aspernatur in vitae quidem enim voluptatem ducimus asperiores</p>
+                            <img src={tictactoe} alt="" className="rounded-lg w-full"/>
+                            <h2 className="mb-2 text-2xl font-bold">Tic-Tac-Toe</h2>
+                            <p>An interactive player vs player (PvP) game showcasing proficiency in front-end web development, featuring player input handling and dynamic styling.</p>
                         </div>
                         <div className="max-w-sm">
                             <img src="https://fakeimg.pl/350x233" alt="" className="rounded-lg w-full"/>

@@ -10,10 +10,6 @@
   flex-direction: column;
 }
 
-main {
-  flex: 1;
-}
-
 .fp-tableCell {
   position: relative;
   display: flex;
@@ -21,5 +17,17 @@ main {
   align-items: center;
   margin: 0 auto;
   padding: 0 2rem;
-  height: calc(100vh - 142px);
+  height: calc(100vh - 144px);
+}
+
+.social-media {
+  position: fixed;
+  z-index: 1000;
+  right: 2.5rem;
+  top: 50%;
+  font-weight: 300;
+}
+
+.social-media-links {
+  margin-bottom: calc(1.666rem/2);
 }
