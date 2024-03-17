@@ -1,5 +1,24 @@
 .projects-grid-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
-    gap: 15px;
+}
+
+.projects-wrapper-mobile {
+    position: relative;
+    display: flex;
+    width: 79.1666666667vw !important;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: calc(100vh - 144px);
+}
+
+.projects-wrapper-desktop {
+    position: relative;
+    display: flex;
+    width: 79.1666666667vw !important;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: calc(100vh - 144px);
 }
