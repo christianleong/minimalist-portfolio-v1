@@ -44,7 +44,7 @@ export default function Experience() {
                 <div className="ml-6">
                     <h4 className="font-bold text-slate-500">Software Engineering Student</h4>
                     <h5 className="font-normal text-slate-500">General Assembly</h5>
-                    <p className="mt-2 max-w-screen-sm text-sm text-gray-500">After working in the accounting industry for 5 years, I started exploring more deeply into my new found passion for pragramming. </p>
+                    <p className="mt-2 max-w-screen-sm text-sm text-gray-500">After working in the accounting industry for 5 years, I started exploring more deeply into my new found passion for pragramming.</p>
                     <span className="mt-1 block text-sm font-semibold text-slate-500">Dec 2023 - Mar 2024</span>
                 </div>
                 </div>

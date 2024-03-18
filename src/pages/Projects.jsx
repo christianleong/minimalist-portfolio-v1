@@ -47,8 +47,8 @@ export default function Projects() {
                                     <p className='font-light mb-2 max-w-lg opacity-70'>A full-stack single-page application that integrates with GoogleMaps API to display all petrol stations within the boundary based on current location.</p>
                                     <p className='font-light mb-2 max-w-lg opacity-70'>A collaborative effort involving four team members utilising GitHub branches and Trello board to delegate tasks and manage workflow.</p>
                                     <div className='flex gap-5'>
-                                        <a href="https://github.com/christianleong/pipeline/tree/chris">GitHub</a>
-                                        <a href="">Not yet deployed</a>
+                                        <a href="https://github.com/yangzhie/pipeline">GitHub</a>
+                                        <a href="https://github.com/yangzhie/pipeline">Demo</a>
                                     </div>
                                 </div>
                                 <div className="max-w-sm mb-20">
@@ -101,8 +101,8 @@ export default function Projects() {
                                     <p className='font-light mb-2 max-w-lg opacity-70'>A full-stack single-page application that integrates with GoogleMaps API to display all petrol stations within the boundary based on current location.</p>
                                     <p className='font-light mb-2 max-w-lg opacity-70'>A collaborative effort involving four team members utilising GitHub branches and Trello board to delegate tasks and manage workflow.</p>
                                     <div className='flex gap-5'>
-                                        <a href="https://github.com/christianleong/pipeline/tree/chris">GitHub</a>
-                                        <a href="">Not yet deployed</a>
+                                        <a href="https://github.com/yangzhie/pipeline">GitHub</a>
+                                        <a href="https://github.com/yangzhie/pipeline">Demo</a>
                                     </div>
                                 </div>
                                 <div className="max-w-sm">
