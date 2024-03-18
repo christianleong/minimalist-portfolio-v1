@@ -11,7 +11,7 @@ export default function Experience() {
                 <div className="ml-6">
                     <h4 className="font-bold text-slate-500">Graduate Accountant</h4>
                     <h5 className="font-normal text-slate-500">AscendPoint</h5>
-                    <p className="mt-2 max-w-screen-sm text-sm text-gray-500">Worked in a boutique accounting firm where I first developed my skills as a tax accountant, in preparing financial statements and tax returns for domestic and foreign clients.</p>
+                    <p className="mt-2 max-w-screen-sm text-sm text-gray-500">Worked in a boutique accounting firm where I first developed my skills as a tax accountant, preparing financial statements and tax returns for domestic and foreign clients.</p>
                     <span className="mt-1 block text-sm font-semibold text-slate-500">Jan 2018 - Mar 2019</span>
                 </div>
                 </div>
@@ -33,7 +33,7 @@ export default function Experience() {
                 <div className="ml-6">
                     <h4 className="font-bold text-slate-500">Tax Accountant</h4>
                     <h5 className="font-normal text-slate-500">MVA Bennett Pty Ltd</h5>
-                    <p className="mt-2 max-w-screen-sm text-sm text-gray-500">Towards the end of 2021, Aberdeen Advisory merged with MVA Bennett which gave us the opportunity to learn and develop new skills as well as work with a new variety of people.</p>
+                    <p className="mt-2 max-w-screen-sm text-sm text-gray-500">Towards the end of 2021, Aberdeen Advisory merged with MVA Bennett which opened up avenues for expanding our skill set and collaborating with a fresh cohort of colleagues.</p>
                     <span className="mt-1 block text-sm font-semibold text-slate-500">Oct 2021 - Nov 2023</span>
                 </div>
                 </div>

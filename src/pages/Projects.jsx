@@ -26,23 +26,39 @@ export default function Projects() {
                                     <img src={tictactoe} alt="" className="rounded-lg w-full h-60 mb-5"/>
                                     <h2 className="mb-2 text-2xl font-bold">Tic-Tac-Toe</h2>
                                     <p className='font-light mb-2 max-w-lg opacity-70'>An interactive player vs player (PvP) game showcasing proficiency in front-end web development, featuring player input handling and dynamic styling.</p>
+                                    <div className='flex gap-5'>
+                                        <a href="https://github.com/christianleong/tic-tac-toe">GitHub</a>
+                                        <a href="https://christianleong.github.io/tic-tac-toe/">Demo</a>
+                                    </div>
                                 </div>
                                 <div className="max-w-sm">
                                     <img src={pinspiration} alt="" className="rounded-lg w-full h-60 mb-5"/>
                                     <h2 className="mb-2 text-2xl font-bold">Pinspiration</h2>
                                     <p className='font-light mb-2 max-w-lg opacity-70'>A full-stack CRUD app that allows users to post, edit and delete their inspirations through captivating images. It also has signup and login features and the ability to allow users to search for images based on keywords in the title.</p>
                                     <p className='font-light mb-2 max-w-lg opacity-70'>Note: It may take a moment to load.</p>
+                                    <div className='flex gap-5'>
+                                        <a href="https://github.com/christianleong/pinspiration">GitHub</a>
+                                        <a href="https://pinspiration-r3vl.onrender.com">Demo</a>
+                                    </div>
                                 </div>
                                 <div className="max-w-sm">
                                     <img src={pipeline} alt="" className="rounded-lg w-full h-60 mb-5"/>
                                     <h2 className="mb-2 text-2xl font-bold">Pipeline</h2>
                                     <p className='font-light mb-2 max-w-lg opacity-70'>A full-stack single-page application that integrates with GoogleMaps API to display all petrol stations within the boundary based on current location.</p>
                                     <p className='font-light mb-2 max-w-lg opacity-70'>A collaborative effort involving four team members utilising GitHub branches and Trello board to delegate tasks and manage workflow.</p>
+                                    <div className='flex gap-5'>
+                                        <a href="https://github.com/christianleong/pipeline/tree/chris">GitHub</a>
+                                        <a href="">Not yet deployed</a>
+                                    </div>
                                 </div>
                                 <div className="max-w-sm mb-20">
                                     <img src={kickoffAnalysis} alt="" className="rounded-lg w-full h-60 mb-5"/>
                                     <h2 className="mb-2 text-2xl font-bold">Kickoff Analysis</h2>
                                     <p className='font-light mb-2 max-w-lg opacity-70'>A single-page application built using React to display the English Premier League (EPL) football match fixtures, standings and team stats.</p>
+                                    <div className='flex gap-5'>
+                                        <a href="https://github.com/christianleong/react-kickoff-analysis">GitHub</a>
+                                        <a href="https://kickoff-analysis.surge.sh/">Demo</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -64,23 +80,39 @@ export default function Projects() {
                                     <img src={tictactoe} alt="" className="rounded-lg w-full h-60 mb-5  mt-5"/>
                                     <h2 className="mb-2 text-2xl font-bold">Tic-Tac-Toe</h2>
                                     <p className='font-light mb-2 max-w-lg opacity-70'>An interactive player vs player (PvP) game showcasing proficiency in front-end web development, featuring player input handling and dynamic styling.</p>
+                                    <div className='flex gap-5'>
+                                        <a href="https://github.com/christianleong/tic-tac-toe">GitHub</a>
+                                        <a href="https://christianleong.github.io/tic-tac-toe/">Demo</a>
+                                    </div>
                                 </div>
                                 <div className="max-w-sm">
                                     <img src={pinspiration} alt="" className="rounded-lg w-full h-60 mb-5 mt-5"/>
                                     <h2 className="mb-2 text-2xl font-bold">Pinspiration</h2>
                                     <p className='font-light mb-2 max-w-lg opacity-70'>A full-stack CRUD app that allows users to post, edit and delete their inspirations through captivating images. It also has signup and login features and the ability to allow users to search for images based on keywords in the title.</p>
                                     <p className='font-light mb-2 max-w-lg opacity-70'>Note: It may take a moment to load.</p>
+                                    <div className='flex gap-5'>
+                                        <a href="https://github.com/christianleong/pinspiration">GitHub</a>
+                                        <a href="https://pinspiration-r3vl.onrender.com">Demo</a>
+                                    </div>
                                 </div>
                                 <div className="max-w-sm">
                                     <img src={pipeline} alt="" className="rounded-lg w-full h-60 mb-5 mt-5"/>
                                     <h2 className="mb-2 text-2xl font-bold">Pipeline</h2>
                                     <p className='font-light mb-2 max-w-lg opacity-70'>A full-stack single-page application that integrates with GoogleMaps API to display all petrol stations within the boundary based on current location.</p>
                                     <p className='font-light mb-2 max-w-lg opacity-70'>A collaborative effort involving four team members utilising GitHub branches and Trello board to delegate tasks and manage workflow.</p>
+                                    <div className='flex gap-5'>
+                                        <a href="https://github.com/christianleong/pipeline/tree/chris">GitHub</a>
+                                        <a href="">Not yet deployed</a>
+                                    </div>
                                 </div>
                                 <div className="max-w-sm">
                                     <img src={kickoffAnalysis} alt="" className="rounded-lg w-full h-60 mb-5 mt-5"/>
                                     <h2 className="mb-2 text-2xl font-bold">Kickoff Analysis</h2>
                                     <p className='font-light mb-2 max-w-lg opacity-70'>A single-page application built using React to display the English Premier League (EPL) football match fixtures, standings and team stats.</p>
+                                    <div className='flex gap-5'>
+                                        <a href="https://github.com/christianleong/react-kickoff-analysis">GitHub</a>
+                                        <a href="https://kickoff-analysis.surge.sh/">Demo</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
