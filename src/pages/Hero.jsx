@@ -18,7 +18,7 @@ export default function Hero() {
                                 <p className="font-light mb-2 max-w-lg opacity-70">I am software engineer with a background in accounting.</p>
                                 <p className="font-light mb-2 max-w-lg opacity-70">With an attention to detail, I enjoy creating solutions to improve application performance and user experience.</p>
                                 <p className="font-light mb-2 max-w-lg opacity-70"></p>
-                                <a className="cursor-pointer font-semibold underline" href="https://drive.google.com/file/d/1RfeOaA2Yv667zyr6YuZcsyA7rUq11z8Y/view?usp=sharing">View my Resume</a>
+                                <a className="cursor-pointer font-semibold underline" href="https://drive.google.com/file/d/1gHDGPrNgIq0ykIfKCDy3cU-TIetTHUNo/view?usp=sharing">View my Resume</a>
                             </div>
                             <div className="potrait-img max-w-lg relative w-10/12">
                                 <Lottie animationData={HeroAnimation} />
@@ -35,7 +35,7 @@ export default function Hero() {
                                 <h2 className="mb-2 text-2xl font-bold">Hello,<br />My name is Christian.</h2>
                                 <p className="font-light mb-2 max-w-lg opacity-70">I am software engineer with a background in accounting.</p>
                                 <p className="font-light mb-2 max-w-lg opacity-70">With an attention to detail, I enjoy creating solutions to improve application performance and user experience.</p>
-                                <a className="cursor-pointer font-semibold underline" href="https://drive.google.com/file/d/1RfeOaA2Yv667zyr6YuZcsyA7rUq11z8Y/view?usp=sharing">View my Resume</a>
+                                <a className="cursor-pointer font-semibold underline" href="https://drive.google.com/file/d/1gHDGPrNgIq0ykIfKCDy3cU-TIetTHUNo/view?usp=sharing">View my Resume</a>
                             </div>
                             <div className="potrait-img max-w-lg relative w-10/12">
                                 <Lottie animationData={HeroAnimation} />
