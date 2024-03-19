@@ -1,5 +1,6 @@
-import portraitImage from '../assets/portrait-image.jpg'
 import { useMediaQuery } from 'react-responsive'
+import Lottie from "lottie-react";
+import HeroAnimation from "../assets/hero-animation.json"
 
 export default function Hero() {
 
@@ -9,7 +10,7 @@ export default function Hero() {
     return (
         <>
             {   isMobile && 
-                <div data-anchor="hero ">
+                <div id='hero' data-anchor="hero ">
                     <div className="fp-tableCell ">
                         <div className="grid grid-cols-1 gap-5 items-center w-full">
                             <div className="intro">
@@ -20,14 +21,14 @@ export default function Hero() {
                                 <a className="cursor-pointer font-semibold underline" href="https://drive.google.com/file/d/1RfeOaA2Yv667zyr6YuZcsyA7rUq11z8Y/view?usp=sharing">View my Resume</a>
                             </div>
                             <div className="potrait-img max-w-lg relative w-10/12">
-                                <img src={portraitImage} alt="" />
+                                <Lottie animationData={HeroAnimation} />
                             </div>
                         </div>
                     </div>
                 </div>
             }
             {   isDesktopOrLaptop &&
-                <div data-anchor="hero ">
+                <div id='hero' data-anchor="hero ">
                     <div className="fp-tableCell ">
                         <div className="grid grid-cols-2 gap-5 items-center w-full">
                             <div className="intro justify-self-end">
@@ -37,7 +38,7 @@ export default function Hero() {
                                 <a className="cursor-pointer font-semibold underline" href="https://drive.google.com/file/d/1RfeOaA2Yv667zyr6YuZcsyA7rUq11z8Y/view?usp=sharing">View my Resume</a>
                             </div>
                             <div className="potrait-img max-w-lg relative w-10/12">
-                                <img src={portraitImage} alt="" />
+                                <Lottie animationData={HeroAnimation} />
                             </div>
                         </div>
                     </div>

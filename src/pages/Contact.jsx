@@ -3,7 +3,7 @@ import githubIcon from '../assets/iconmonstr-github-1.svg'
 
 export default function Contact() {
     return (
-        <div data-anchor="hero ">
+        <div id='contact' data-anchor="hero ">
             <div className="fp-tableCell ">
                 <div className="grid gap-5 items-center w-full">
                     <div className="intro">

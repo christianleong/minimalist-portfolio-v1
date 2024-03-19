@@ -68,7 +68,7 @@ export default function Projects() {
         
         {
             isDesktopOrLaptop &&        
-            <div data-anchor="projects ">
+            <div id='projects' data-anchor="projects ">
                     <div className="projects-wrapper-desktop ">
                         <div className="grid grid-rows-1 gap-5 items-center w-full">
                             <div className="intro">

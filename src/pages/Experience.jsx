@@ -2,7 +2,7 @@ import './Experience.css'
 
 export default function Experience() {
     return (
-        <div className="flex items-center justify-center bg-white px-6 md:px-60 exp-wrapper">
+        <div id='experience' className="flex items-center justify-center bg-white px-6 md:px-60 exp-wrapper">
             <div className="space-y-6 border-l-2 border-dashed">
                 <div className="relative w-full">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="absolute -top-0.5 z-10 -ml-3.5 h-7 w-7 rounded-full text-slate-500">
