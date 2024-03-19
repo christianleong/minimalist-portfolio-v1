@@ -14,14 +14,14 @@ export default function Projects() {
         <>
         {
             isMobile &&        
-            <div data-anchor="projects ">
+            <div id="projects" data-anchor="projects ">
                     <div className="projects-wrapper-mobile ">
                         <div className="grid grid-rows-1 gap-5 items-center w-full">
                             <div className="intro">
                                 <h2 className="mb-2 text-2xl font-bold">Projects</h2>
                                 <p className="font-light mb-2 max-w-lg opacity-70">Here are some projects I worked on at General Assembly.</p>
                             </div>
-                            <div className="projects-grid-wrapper gap-14">
+                            <div className="projects-grid-wrapper-mobile gap-14">
                                 <div className="max-w-sm">
                                     <img src={tictactoe} alt="" className="rounded-lg w-full h-60 mb-5"/>
                                     <h2 className="mb-2 text-2xl font-bold">Tic-Tac-Toe</h2>
@@ -75,7 +75,7 @@ export default function Projects() {
                                 <h2 className="mb-2 text-2xl font-bold">Projects</h2>
                                 <p className="font-light mb-2 max-w-lg opacity-70">Here are some projects I worked on at General Assembly.</p>
                             </div>
-                            <div className="projects-grid-wrapper">
+                            <div className="projects-grid-wrapper-desktop">
                                 <div className="max-w-sm">
                                     <img src={tictactoe} alt="" className="rounded-lg w-full h-60 mb-5  mt-5"/>
                                     <h2 className="mb-2 text-2xl font-bold">Tic-Tac-Toe</h2>

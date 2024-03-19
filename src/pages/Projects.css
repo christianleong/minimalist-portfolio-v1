@@ -1,4 +1,9 @@
-.projects-grid-wrapper {
+.projects-grid-wrapper-mobile {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+}
+
+.projects-grid-wrapper-desktop {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
 }
