@@ -19,12 +19,8 @@ export default function Hero({ screenHeight }) {
         >
 
             <div 
-                className={ 
-                    isMobile ? "fp-tableCell-mobile" : "fp-tableCell" 
-                } 
-                style={{ 
-                    height: isMobile? "0" :`${screenHeight}px` 
-                }}
+                className={ isMobile ? "fp-tableCell-mobile" : "fp-tableCell" } 
+                style={{ height: isMobile? "0" :`${screenHeight}px` }}
             >
 
                 <div className={`grid ${ gridColsClass } gap-5 items-center w-full`}>

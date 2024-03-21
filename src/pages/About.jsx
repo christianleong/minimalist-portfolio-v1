@@ -12,12 +12,13 @@ export default function About({ screenHeight }) {
             data-anchor="about" 
             className="p-0 table table-fixed w-full" 
             style={{ 
-                height: isMobile ? '100vh' : `${screenHeight}px` 
+                height: isMobile ? '0' : `${screenHeight}px` 
             }}>
 
             <div 
                 className={ isMobile ? "fp-tableCell-mobile" : "fp-tableCell" } 
-                style={{ height: `${screenHeight}px` }}>
+                style={{ height: isMobile? "0" :`${screenHeight}px` }}
+            >
 
                 <div className={`grid ${gridColsClass} gap-5 items-center w-full`}>
 
