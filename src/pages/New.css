@@ -1,0 +1,13 @@
+.project-wrapper {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 19em);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-1 {
+    width: 100%;
+    max-width: 350px;
+}

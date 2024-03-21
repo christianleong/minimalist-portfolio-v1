@@ -18,7 +18,7 @@ export default function Navbar() {
     <>
       {
         isMobile &&
-        <nav className="flex justify-between p-10 z-50 w-full">
+        <nav className="flex justify-between p-10 z-50 w-full relative">
             <Link to="hero"><h1 className="font-robotoSlab text-2xl absolute font-bold flex items-center cursor-pointer">Christian <br />Leong</h1></Link>
         </nav>
       }

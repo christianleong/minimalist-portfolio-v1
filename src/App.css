@@ -1,3 +1,4 @@
+/* default css style */
 * {
   font-family: "Raleway", sans-serif;
   box-sizing: border-box;
@@ -5,29 +6,31 @@
   padding: 0;
 }
 
-.app-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
+/* flexbox to align content in the middle of the page */
 .fp-tableCell {
   position: relative;
   display: flex;
-  width: 79.1666666667vw !important;
+  width: 80vw;
   align-items: center;
   margin: 0 auto;
   padding: 0 2rem;
-  height: calc(100vh - 144px);
 }
 
-.social-media {
-  position: fixed;
-  z-index: 1000;
-  right: 2.5rem;
-  top: 50%;
-  font-weight: 300;
+/* flexbox to align content in the middle of the page and allow more content when in mobile */
+.fp-tableCell-mobile {
+  position: relative;
+  display: table-cell;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 30%;
 }
 
-.social-media-links {
-  margin-bottom: calc(1.666rem/2);
-}
+/* Question: should I keep this? */
+/* .fullpage-wrapper {
+  height: 100%;
+  position: relative;
+  transform: translate3d(0px, 0px, 0px);
+  transition: none 0s ease 0s;
+  display: block;
+} */
