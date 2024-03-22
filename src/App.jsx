@@ -7,13 +7,15 @@ import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import SocialSidebar from './components/SocialSidebar'
 import New from './pages/New'
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useMediaQuery } from 'react-responsive'
+import MenuOverlay from './components/MenuOverlay'
 
 function App() {
 
   const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
   const [screenHeight, setScreenHeight] = useState(window.innerHeight);
+  const [navbarOpen, setNavbarOpen] = useState(false);
 
   useEffect(() => {
       function handleResize() {
@@ -28,9 +30,9 @@ function App() {
   return (
     <>
       <div className='flex flex-col'>
-          <Navbar />
+          <Navbar navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
+          <MenuOverlay navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
           <main className={`fullpage-wrapper ${ isMobile ? 'p-9' : '' }`}>
-
             {/* <div> */}
               <div className='mb-20'>
                 <Hero screenHeight={screenHeight}/>
