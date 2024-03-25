@@ -1,13 +1,13 @@
-import NavItem from "./NavItem";
+import NavItemMobile from "./NavItemMobile";
 
 export default function MenuOverlay({ navbarOpen, setNavbarOpen }) {
 
     const navigation = [
-        { name: "hero", page:"Home" },
-        { name: "about", page:"About" },
-        { name: "experience", page:"Experience" },
-        { name: "projects", page:"Projects" },
-        { name: "contact", page:"Contact" },
+        { name: "home", page: "Home", href: "/#home" },
+        { name: "about", page: "About", href: "/#about" },
+        { name: "experience", page: "Experience", href: "/#experience" },
+        { name: "projects", page: "Projects", href: "/#projects" },
+        { name: "contact", page: "Contact", href: "/#contact" },
     ];
 
     const handleClick = () => setNavbarOpen(false)
@@ -23,7 +23,7 @@ export default function MenuOverlay({ navbarOpen, setNavbarOpen }) {
         >
             <ul className="flex flex-col list-none items-center gap-10 justify-center p-0 font-thin text-2xl">
                     {navigation.map((link, idx) => 
-                        <NavItem key={idx} to={link.name} text={link.page} onClick={handleClick}/>
+                        <NavItemMobile key={idx} to={link.name} text={link.page} onClick={handleClick}/>
                     )}
             </ul>
         </nav>
