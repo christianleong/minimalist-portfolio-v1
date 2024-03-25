@@ -8,8 +8,7 @@ export default function About({ screenHeight }) {
 
     return (
         <div 
-            id='about' 
-            data-anchor="about" 
+            id={isMobile ? 'about' : undefined}
             className="p-0 table table-fixed w-full" 
             style={{ 
                 height: isMobile ? '0' : `${screenHeight}px` 

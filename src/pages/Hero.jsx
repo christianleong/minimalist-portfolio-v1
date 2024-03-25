@@ -9,8 +9,7 @@ export default function Hero({ screenHeight }) {
 
     return (
         <div 
-            id='hero' 
-            data-anchor="hero" 
+            id={isMobile ? 'home' : undefined}
             className="p-0 table table-fixed w-full" 
             style={{ 
                 marginTop: isMobile ? '50px' : "0" , 
@@ -29,7 +28,6 @@ export default function Hero({ screenHeight }) {
                         <h2 className="mb-2 text-2xl font-bold">Hello,<br />My name is Christian.</h2>
                         <p className="font-light mb-2 max-w-lg opacity-70">I am software engineer with a background in accounting.</p>
                         <p className="font-light mb-2 max-w-lg opacity-70">With an attention to detail, I enjoy creating solutions to improve application performance and user experience.</p>
-                        <p className="font-light mb-2 max-w-lg opacity-70"></p>
                         <a className="cursor-pointer font-semibold underline" href="https://drive.google.com/file/d/1gHDGPrNgIq0ykIfKCDy3cU-TIetTHUNo/view?usp=sharing">View my Resume</a>
                     </div>
                     
