@@ -11,6 +11,7 @@
     "deploy": "npm run build && surge dist --domain christianleong.surge.sh"
   },
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.42",
     "@splidejs/react-splide": "^0.7.12",
     "animejs": "^3.2.2",
     "flickity": "^3.0.0",
