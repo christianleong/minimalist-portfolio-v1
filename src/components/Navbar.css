@@ -1,0 +1,19 @@
+/* default navbar text color */
+li a {
+    color: #989898;
+}
+
+/* change navbar text color based on current active page */
+li.active a {
+    color: black;
+}
+
+/* add underline style after content based on current active page */
+li.active a::after {
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: #ab4e4f;
+    width: 100%;
+    height: 2px;
+}
