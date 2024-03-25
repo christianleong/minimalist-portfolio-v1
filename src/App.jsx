@@ -45,13 +45,13 @@ function App() {
             render={(comp) => (
               <ReactFullpage.Wrapper>
                 <section className="fullpage-section" data-anchor="home" style={{ height: `${screenHeight}px` }}>
-                  <Hero screenHeight={screenHeight} onSectionChange={handleSectionChange}/>
+                  <Hero screenHeight={screenHeight}/>
                 </section>
                 <section className="fullpage-section" data-anchor="about" style={{ height: `${screenHeight}px` }}>
-                  <About screenHeight={screenHeight} onSectionChange={handleSectionChange}/>
+                  <About screenHeight={screenHeight}/>
                 </section>
                 <section className="fullpage-section" data-anchor="contact" style={{ height: `${screenHeight}px` }}>
-                  <Contact screenHeight={screenHeight} onSectionChange={handleSectionChange}/>
+                  <Contact screenHeight={screenHeight}/>
                 </section>
               </ReactFullpage.Wrapper>
             )}
