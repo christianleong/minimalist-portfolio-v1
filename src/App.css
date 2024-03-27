@@ -26,11 +26,31 @@
   margin-top: 30%;
 }
 
-/* Question: should I keep this? */
-/* .fullpage-wrapper {
-  height: 100%;
-  position: relative;
-  transform: translate3d(0px, 0px, 0px);
-  transition: none 0s ease 0s;
-  display: block;
-} */
+/* animate typing effect used on Hero page */
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+
+  100% {
+    border-color: white
+  }
+}
+
+.animate-typing {
+  display: inline-block;
+  animation: typing 2s steps(20) infinite alternate, blink .7s infinite alternate;
+  border-right: 2px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+}
