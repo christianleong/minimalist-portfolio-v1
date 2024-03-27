@@ -1,124 +1,29 @@
-import './Projects.css'
-import tictactoe from '../assets/tictactoe.png'
-import pinspiration from '../assets/pinspiration.png'
-import pipeline from '../assets/pipeline.png'
-import kickoffAnalysis from '../assets/kickoff-analysis.png'
-import { useMediaQuery } from 'react-responsive'
+import { useMediaQuery } from 'react-responsive';
+import Carousel from '../components/Carousel';
 
-export default function Projects() {
-
-    const isMobile = useMediaQuery({ query: '(max-width: 767px)' })
-    const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 768px)' })
+export default function Projects({ screenHeight }) {
+    const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
 
     return (
-        <>
-        {
-            isMobile &&        
-            <div id="projects" data-anchor="projects ">
-                    <div className="projects-wrapper-mobile ">
-                        <div className="grid grid-rows-1 gap-5 items-center w-full">
-                            <div className="intro">
-                                <h2 className="mb-2 text-2xl font-bold">Projects</h2>
-                                <p className="font-light mb-2 max-w-lg opacity-70">Here are some projects I worked on at General Assembly.</p>
-                            </div>
-                            <div className="projects-grid-wrapper-mobile gap-14">
-                                <div className="max-w-sm">
-                                    <img src={tictactoe} alt="" className="rounded-lg w-full h-60 mb-5"/>
-                                    <h2 className="mb-2 text-2xl font-bold">Tic-Tac-Toe</h2>
-                                    <p className='font-light mb-2 max-w-lg opacity-70'>An interactive player vs player (PvP) game showcasing proficiency in front-end web development, featuring player input handling and dynamic styling.</p>
-                                    <div className='flex gap-5'>
-                                        <a href="https://github.com/christianleong/tic-tac-toe">GitHub</a>
-                                        <a href="https://christianleong.github.io/tic-tac-toe/">Demo</a>
-                                    </div>
-                                </div>
-                                <div className="max-w-sm">
-                                    <img src={pinspiration} alt="" className="rounded-lg w-full h-60 mb-5"/>
-                                    <h2 className="mb-2 text-2xl font-bold">Pinspiration</h2>
-                                    <p className='font-light mb-2 max-w-lg opacity-70'>A full-stack CRUD app that allows users to post, edit and delete their inspirations through captivating images. It also has signup and login features and the ability to allow users to search for images based on keywords in the title.</p>
-                                    <p className='font-light mb-2 max-w-lg opacity-70'>Note: It may take a moment to load.</p>
-                                    <div className='flex gap-5'>
-                                        <a href="https://github.com/christianleong/pinspiration">GitHub</a>
-                                        <a href="https://pinspiration-r3vl.onrender.com">Demo</a>
-                                    </div>
-                                </div>
-                                <div className="max-w-sm">
-                                    <img src={pipeline} alt="" className="rounded-lg w-full h-60 mb-5"/>
-                                    <h2 className="mb-2 text-2xl font-bold">Pipeline</h2>
-                                    <p className='font-light mb-2 max-w-lg opacity-70'>A full-stack single-page application that integrates with GoogleMaps API to display all petrol stations within the boundary based on current location.</p>
-                                    <p className='font-light mb-2 max-w-lg opacity-70'>A collaborative effort involving four team members utilising GitHub branches and Trello board to delegate tasks and manage workflow.</p>
-                                    <div className='flex gap-5'>
-                                        <a href="https://github.com/yangzhie/pipeline">GitHub</a>
-                                        <a href="https://github.com/yangzhie/pipeline">Demo</a>
-                                    </div>
-                                </div>
-                                <div className="max-w-sm mb-20">
-                                    <img src={kickoffAnalysis} alt="" className="rounded-lg w-full h-60 mb-5"/>
-                                    <h2 className="mb-2 text-2xl font-bold">Kickoff Analysis</h2>
-                                    <p className='font-light mb-2 max-w-lg opacity-70'>A single-page application built using React to display the English Premier League (EPL) football match fixtures, standings and team stats.</p>
-                                    <div className='flex gap-5'>
-                                        <a href="https://github.com/christianleong/react-kickoff-analysis">GitHub</a>
-                                        <a href="https://kickoff-analysis.surge.sh/">Demo</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <div
+            id={isMobile ? 'projects' : undefined}
+            className={`p-0 table table-fixed w-full`}
+            style={{
+                height: isMobile ? '0' : `${screenHeight}px`
+            }}
+        >
+            <div
+                className={isMobile ? "fp-tableCell-mobile" : "fp-tableCell"}
+                style={{ height: isMobile ? "0" : `${screenHeight}px` }}
+            >
+                <div className={`grid items-center w-full`}>
+                    <div>
+                        <h2 className="mb-2 text-2xl font-bold">Projects.</h2>
+                        <p className="font-light mb-2 max-w-xl opacity-70">These are some highlight projects. Each page discusses the purpose of the project, what was learned, and how I came up with solutions.</p>
+                        <Carousel />
                     </div>
+                </div>
             </div>
-        }
-        
-        {
-            isDesktopOrLaptop &&        
-            <div id='projects' data-anchor="projects ">
-                    <div className="projects-wrapper-desktop ">
-                        <div className="grid grid-rows-1 gap-5 items-center w-full">
-                            <div className="intro">
-                                <h2 className="mb-2 text-2xl font-bold">Projects</h2>
-                                <p className="font-light mb-2 max-w-lg opacity-70">Here are some projects I worked on at General Assembly.</p>
-                            </div>
-                            <div className="projects-grid-wrapper-desktop">
-                                <div className="max-w-sm">
-                                    <img src={tictactoe} alt="" className="rounded-lg w-full h-60 mb-5  mt-5"/>
-                                    <h2 className="mb-2 text-2xl font-bold">Tic-Tac-Toe</h2>
-                                    <p className='font-light mb-2 max-w-lg opacity-70'>An interactive player vs player (PvP) game showcasing proficiency in front-end web development, featuring player input handling and dynamic styling.</p>
-                                    <div className='flex gap-5'>
-                                        <a href="https://github.com/christianleong/tic-tac-toe">GitHub</a>
-                                        <a href="https://christianleong.github.io/tic-tac-toe/">Demo</a>
-                                    </div>
-                                </div>
-                                <div className="max-w-sm">
-                                    <img src={pinspiration} alt="" className="rounded-lg w-full h-60 mb-5 mt-5"/>
-                                    <h2 className="mb-2 text-2xl font-bold">Pinspiration</h2>
-                                    <p className='font-light mb-2 max-w-lg opacity-70'>A full-stack CRUD app that allows users to post, edit and delete their inspirations through captivating images. It also has signup and login features and the ability to allow users to search for images based on keywords in the title.</p>
-                                    <p className='font-light mb-2 max-w-lg opacity-70'>Note: It may take a moment to load.</p>
-                                    <div className='flex gap-5'>
-                                        <a href="https://github.com/christianleong/pinspiration">GitHub</a>
-                                        <a href="https://pinspiration-r3vl.onrender.com">Demo</a>
-                                    </div>
-                                </div>
-                                <div className="max-w-sm">
-                                    <img src={pipeline} alt="" className="rounded-lg w-full h-60 mb-5 mt-5"/>
-                                    <h2 className="mb-2 text-2xl font-bold">Pipeline</h2>
-                                    <p className='font-light mb-2 max-w-lg opacity-70'>A full-stack single-page application that integrates with GoogleMaps API to display all petrol stations within the boundary based on current location.</p>
-                                    <p className='font-light mb-2 max-w-lg opacity-70'>A collaborative effort involving four team members utilising GitHub branches and Trello board to delegate tasks and manage workflow.</p>
-                                    <div className='flex gap-5'>
-                                        <a href="https://github.com/yangzhie/pipeline">GitHub</a>
-                                        <a href="https://github.com/yangzhie/pipeline">Demo</a>
-                                    </div>
-                                </div>
-                                <div className="max-w-sm">
-                                    <img src={kickoffAnalysis} alt="" className="rounded-lg w-full h-60 mb-5 mt-5"/>
-                                    <h2 className="mb-2 text-2xl font-bold">Kickoff Analysis</h2>
-                                    <p className='font-light mb-2 max-w-lg opacity-70'>A single-page application built using React to display the English Premier League (EPL) football match fixtures, standings and team stats.</p>
-                                    <div className='flex gap-5'>
-                                        <a href="https://github.com/christianleong/react-kickoff-analysis">GitHub</a>
-                                        <a href="https://kickoff-analysis.surge.sh/">Demo</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-        }
-        </>
-    )
+        </div>
+    );
 }
