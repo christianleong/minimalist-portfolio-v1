@@ -5,6 +5,7 @@ import tictactoe from '../assets/images/tictactoe.png';
 import pinspiration from '../assets/images/pinspiration.png'
 import pipeline from '../assets/images/pipeline.png'
 import kickoffAnalysis from '../assets/images/kickoff-analysis.png'
+import portfolioWebsite from '../assets/images/portfolio-website.png'
 
 export default function ProjectCard() {
     const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -49,6 +50,14 @@ export default function ProjectCard() {
             description: "A single-page application built using React to display the English Premier League (EPL) football match fixtures, standings and team stats.",
             techStack: ["HTML", "CSS", "JavaScript", "Express.js", "Node.js", "React.js", "API", "Tailwind CSS"],
             githubUrl: "https://github.com/christianleong/react-kickoff-analysis"
+        },
+        {
+            demoUrl: "https://christianleong.surge.sh/",
+            img: portfolioWebsite,
+            title: "Portfolio Website",
+            description: "A full page website built from scratch using React and Tailwind CSS, showcasing my highlight projects.",
+            techStack: ["HTML", "CSS", "JavaScript", "Node.js", "React.js", "Tailwind CSS"],
+            githubUrl: "https://github.com/christianleong/minimalist-portfolio-v1"
         }
     ];
 
