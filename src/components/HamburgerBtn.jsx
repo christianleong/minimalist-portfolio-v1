@@ -1,3 +1,4 @@
+// this component is used in the Navbar component
 export default function HamburgerBtn({ navbarOpen, onClick }) {
 
     return (

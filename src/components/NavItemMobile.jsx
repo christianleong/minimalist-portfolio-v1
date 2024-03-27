@@ -1,3 +1,4 @@
+// this component is used in the MenuOverlay component
 import { Link } from "react-scroll";
 
 export default function NavItemMobile({ to, text, onClick }) {

@@ -1,5 +1,5 @@
 import { useMediaQuery } from "react-responsive";
-import { Link } from "react-scroll"; // removed as there is a conflict between fullpage.js and react scroll
+/* import { Link } from "react-scroll"; */ // removed as there is a conflict between fullpage.js and react scroll
 import HamburgerBtn from "./HamburgerBtn";
 import './Navbar.css'
 
@@ -13,7 +13,7 @@ const navigation = [
 
 export default function Navbar({ navbarOpen, setNavbarOpen }) {
 
-  const isMobile = useMediaQuery({ query: '(max-width: 767px)' }) // mobile mode breakpoint
+  const isMobile = useMediaQuery({ query: '(max-width: 767px)' })
   const isFixedToTop = isMobile ? 'relative' : 'fixed' // navbar is fixed when in desktop mode.
   const nameVisibility = navbarOpen ? 'invisible' : 'visible' // name on top left is hidden when the menu is open in mobile mode.
 
