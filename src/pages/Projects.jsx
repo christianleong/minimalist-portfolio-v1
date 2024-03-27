@@ -2,6 +2,7 @@ import { useMediaQuery } from 'react-responsive';
 import Carousel from '../components/Carousel';
 
 export default function Projects({ screenHeight }) {
+    
     const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
 
     return (
@@ -17,7 +18,7 @@ export default function Projects({ screenHeight }) {
                 style={{ height: isMobile ? "0" : `${screenHeight}px` }}
             >
                 <div className={`grid items-center w-full`}>
-                    <div>
+                    <div> 
                         <h2 className="mb-2 text-2xl font-bold">Projects.</h2>
                         <p className="font-light mb-2 max-w-xl opacity-70">These are some highlight projects. Each page discusses the purpose of the project, what was learned, and how I came up with solutions.</p>
                         <Carousel />
