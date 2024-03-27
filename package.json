@@ -12,16 +12,12 @@
   },
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.42",
-    "@splidejs/react-splide": "^0.7.12",
-    "animejs": "^3.2.2",
-    "flickity": "^3.0.0",
+    "flickity": "^2.3.0",
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",
-    "react-card-slider-component": "^1.0.9",
     "react-dom": "^18.2.0",
-    "react-multi-carousel": "^2.8.4",
+    "react-flickity-component": "^4.0.7",
     "react-responsive": "^9.0.2",
-    "react-router-dom": "^6.22.3",
     "react-scroll": "^1.9.0"
   },
   "devDependencies": {
