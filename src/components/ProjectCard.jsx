@@ -20,22 +20,6 @@ export default function ProjectCard() {
 
     const projects = [
         {
-            demoUrl: "https://christianleong.github.io/tic-tac-toe/",
-            img: tictactoe,
-            title: "Tic-Tac-Toe",
-            description: "An interactive player vs player (PvP) game showcasing proficiency in front-end web development, featuring player input handling and dynamic styling.",
-            techStack: ["HTML", "CSS", "JavaScript"],
-            githubUrl: "https://github.com/christianleong/tic-tac-toe"
-        },
-        {
-            demoUrl: "https://pinspiration-r3vl.onrender.com",
-            img: pinspiration,
-            title: "Pinspiration",
-            description: "A full-stack CRUD app that allows users to post, edit and delete their inspirations through captivating images. It also has signup and login features and the ability to allow users to search for images based on keywords in the title. Note: It may take a moment to load.",
-            techStack: ["HTML", "CSS", "JavaScript", "Express.js", "Node.js", "PostgreSQL"],
-            githubUrl: "https://github.com/christianleong/pinspiration"
-        },
-        {
             demoUrl: "https://github.com/yangzhie/pipeline",
             img: pipeline,
             title: "Pipeline",
@@ -50,6 +34,22 @@ export default function ProjectCard() {
             description: "A single-page application built using React to display the English Premier League (EPL) football match fixtures, standings and team stats.",
             techStack: ["HTML", "CSS", "JavaScript", "Express.js", "Node.js", "React.js", "API", "Tailwind CSS"],
             githubUrl: "https://github.com/christianleong/react-kickoff-analysis"
+        },
+        {
+            demoUrl: "https://pinspiration-r3vl.onrender.com",
+            img: pinspiration,
+            title: "Pinspiration",
+            description: "A full-stack CRUD app that allows users to post, edit and delete their inspirations through captivating images. It also has signup and login features and the ability to allow users to search for images based on keywords in the title. Note: It may take a moment to load.",
+            techStack: ["HTML", "CSS", "JavaScript", "Express.js", "Node.js", "PostgreSQL"],
+            githubUrl: "https://github.com/christianleong/pinspiration"
+        },
+        {
+            demoUrl: "https://christianleong.github.io/tic-tac-toe/",
+            img: tictactoe,
+            title: "Tic-Tac-Toe",
+            description: "An interactive player vs player (PvP) game showcasing proficiency in front-end web development, featuring player input handling and dynamic styling.",
+            techStack: ["HTML", "CSS", "JavaScript"],
+            githubUrl: "https://github.com/christianleong/tic-tac-toe"
         },
         {
             demoUrl: "https://christianleong.surge.sh/",
