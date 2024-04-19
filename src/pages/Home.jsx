@@ -27,7 +27,7 @@ export default function Home({ screenHeight }) {
                         <h2 className="mb-2 text-2xl font-bold animate-typing overflow-hidden whitespace-nowrap">My name is Christian.</h2>
                         <p className="font-light mb-2 max-w-lg opacity-70">I am a software engineer with a background in accounting.</p>
                         <p className="font-light mb-2 max-w-lg opacity-70">With attention to detail, I enjoy creating solutions to improve application performance and user experience.</p>
-                        <a className="cursor-pointer font-semibold underline" href="https://drive.google.com/file/d/1a-ZbiUdjJa_k_Ec7zXydpynIct06kDMT/view?usp=sharing" target="_blank">View my Resume</a>
+                        <a className="cursor-pointer font-semibold underline" href="https://drive.google.com/file/d/1P9UV_nNPdRguJJPn-rR5lWlAld89cNMT/view?usp=sharing" target="_blank">View my Resume</a>
                     </div>
                     
                     <div className={`max-w-lg relative w-10/12 `}>
